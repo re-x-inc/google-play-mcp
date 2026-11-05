@@ -1,0 +1,21 @@
+# virtualenv / python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# service account keys and other secrets — never commit
+*.json
+!package.json
+*service-account*
+*service_account*
+*-sa.json
+*.pem
+*.p12
+.env
+.env.*
+
+# editors / OS
+.DS_Store
+.idea/
+.vscode/
